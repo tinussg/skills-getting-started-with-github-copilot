@@ -88,13 +88,15 @@ section h3 {
   color: #333;
   padding-left: 20px;
   position: relative;
+  display: flex;
+  align-items: center; /* Align bullet and text vertically */
 }
 
 .activity-card ul li::before {
   content: "•";
   position: absolute;
   left: 0;
-  color: #0066cc;
+  color: #000; /* Change bullet color to black */
   font-size: 16px;
   line-height: 1;
 }
