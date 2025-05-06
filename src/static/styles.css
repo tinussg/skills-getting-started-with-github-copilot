@@ -169,3 +169,19 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.participants li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #555;
+}
